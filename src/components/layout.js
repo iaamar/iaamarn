@@ -36,7 +36,7 @@ const Layout = ({ children, location }) => {
             meta={[
               {
                 name: 'description',
-                content: 'The online home of Aylan Mello'
+                content: 'Amar Nagargoje'
               },
               { name: 'keywords', content: 'sample, something' },
               {
