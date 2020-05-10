@@ -1,2 +1,2 @@
-# amar.io
+# www.amarcode.co
 Personal Site 
