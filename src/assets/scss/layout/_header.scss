@@ -2,7 +2,7 @@
 /* Header */
 
 	#header {
-		padding-top: 60px;
+		padding-top: 40px;
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');
