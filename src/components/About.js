@@ -73,7 +73,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       {/* <iframe src="https://api.linkedin.com/v2/shares/1234?projection=(id,urn:li:person:-f_Ut43FoQ)" height="200" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
 
     </p>
-    <h2 className="major">Experience:</h2>
+    {/* <h2 className="major">Experience:</h2>
     <h4 className="major" >1. JPMorgan Chase & Co</h4>
     <h4 className="major" > Virtual SDE Program</h4>
     
@@ -87,7 +87,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     < p > Lead team and Selected amongst 59 teams in Software + Hardware Edition
     for solving Electric Vehicle Ecosystem problem
     for VMware Pvt . Ltd
-    </p>
+    </p> */}
     <h2 className="major">Skills:</h2>
 
     <SkillSection
