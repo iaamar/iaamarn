@@ -9,8 +9,8 @@ const code = [
     title: 'Live COVID-19 Update',
     subtitle: 'React Native ',
     img: cloudinarygif('gif'),
-    href: 'https://amarn7.github.io/live-covid/',
-    github: 'https://github.com/Amarn7/live-covid',
+    href: 'https://iaamar.github.io/live-covid/',
+    github: 'https://github.com/iaamar/live-covid',
     more: ' Click on Preview 👇 to go live',
     techDetails: `
           React Native is an open - source mobile application framework created by Facebook.It is used to develop applications
@@ -31,7 +31,7 @@ const code = [
     subtitle: 'Teaching App for Intellectually Disabled Children',
     img: cloudinarygif('learnapp'),
     href:'',
-    github: 'https://github.com/Amarn7/Learn',
+    github: 'https://github.com/iaamar/Learn',
     more:
       'Intellectually disabled children are weak in understanding environment thus this flutter app is created to teach disabled people / children using Text-to-Speech Api as user can hear speech in form of voice weather the selected option is wrong or right and hence learning happens. DEMO 👇',
     techDetails: `
@@ -43,7 +43,7 @@ const code = [
     subtitle: 'Prototype of realtime vedio detection using Machine Learning',
     img: cloudinarygif('classifygif'),
     href: '',
-    github: 'https://github.com/Amarn7/realtime-vedio-classifier',
+    github: 'https://github.com/iaamar/realtime-vedio-classifier',
     more:
       ' Preview 👇',
     tech: ['reactjs','javascript','Python', 'html','css'],
@@ -54,7 +54,7 @@ const code = [
     subtitle: 'Health Care App & Web Application  for Predicting ECG using ML Technique (SVM) using IOT',
     img: cloudinaryImg(''),
     href: '',
-    github: 'https://github.com/Amarn7/Heart-rate-react-native',
+    github: 'https://github.com/iaamar/Heart-rate-react-native',
     tech: ['html','css','Python','Firebasedb','javascript','reactjs'],
     more: ``,
     techDetails: `Heath Care depends on domin of IOT for data processing thus python was used to integrate IOT Devices and HTML CSS were used for UI and javascript for performing CRUD operations in Firebase Database . `
@@ -64,7 +64,7 @@ const code = [
       subtitle: 'Flutter Login UI',
       img: cloudinarygif('teddy'),
       href: '',
-      github: 'https://github.com/Amarn7/teddyloginui',
+      github: 'https://github.com/iaamar/teddyloginui',
       more: 'DEMO 👇',
       techDetails: `Flare Flutter gives interactive animation packages to buid flutter app , following is an example`,
       tech: ['Flutter',]
@@ -74,7 +74,7 @@ const code = [
       subtitle: 'UI',
       img: cloudinarygif('travel'),
       href: '',
-      github: 'https://github.com/Amarn7/travelui',
+      github: 'https://github.com/iaamar/travelui',
       more: 'Preview 👇',
       techDetails: `Flare Flutter gives interactive animation packages to buid flutter app , following is an example`,
       tech: ['flutter']

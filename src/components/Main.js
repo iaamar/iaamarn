@@ -209,7 +209,7 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href = "https://github.com/Amarn7"
+              <a href = "https://github.com/iaamar"
                 className = "icon fa-github"
                 target = '_blank' >
                 <span className="label">GitHub</span>
@@ -223,7 +223,7 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              < a href = "https://www.instagram.com/_aamarrr_/"
+              < a href = "https://www.instagram.com/iaamarn/"
               className = "icon fa-instagram"
               target = '_blank' >
                 <span className="label">Instagram</span>
