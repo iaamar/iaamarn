@@ -47,7 +47,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <a
         className="Code-major-link"
         target="_blank"
-        href = "https://drive.google.com/file/d/16jBYMRbF6hA0WpmQH338mLbXO3V9Xub8/view?usp=sharing"
+        href = "https://drive.google.com/file/d/15BLZJOFUcuByQ8lRadBlZI34WOCDLVRd/view?usp=sharing"
       >
         resume
       </a>{' '}
@@ -73,7 +73,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       {/* <iframe src="https://api.linkedin.com/v2/shares/1234?projection=(id,urn:li:person:-f_Ut43FoQ)" height="200" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
 
     </p>
-    {/* <h2 className="major">Experience:</h2>
+    <h2 className="major">Experience:</h2>
     <h4 className="major" >1. JPMorgan Chase & Co</h4>
     <h4 className="major" > Virtual SDE Program</h4>
     
@@ -81,13 +81,12 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     < p > For this project, a trader from the equities team has requested to add functionality to their dashboard to allow them to input specific information so they can monitor a new trading strategy.
 
     In order to do this task, I had to set up system so as the interface with the relevant financial data feed and then present this in a way that allows the traders to visualize and analyze this data in real time to deliver actionable insights.
-
     </p>
     <h4 className="major" >2. Team Lead: SIH2020</h4>
     < p > Lead team and Selected amongst 59 teams in Software + Hardware Edition
     for solving Electric Vehicle Ecosystem problem
     for VMware Pvt . Ltd
-    </p> */}
+    </p>
     <h2 className="major">Skills:</h2>
 
     <SkillSection
