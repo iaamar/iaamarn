@@ -55,7 +55,7 @@ const code = [
     img: cloudinaryImg(''),
     href: '',
     github: 'https://github.com/iaamar/Heart-rate-react-native',
-    tech: ['html','css','Python','Firebasedb','javascript','reactjs'],
+    tech: ['html','css','Python','Firebasedb','javascript','reactjs','flutter'],
     more: ``,
     techDetails: `Heath Care depends on domin of IOT for data processing thus python was used to integrate IOT Devices and HTML CSS were used for UI and javascript for performing CRUD operations in Firebase Database . `
   },
