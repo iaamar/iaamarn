@@ -55,7 +55,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-   animation: imageAnimation 20s  ease-in infinite 2s;
+   animation: imageAnimation 20s  linear infinite 0s;
   }
 
   @keyframes imageAnimation {
@@ -64,17 +64,17 @@
       
     }
 
-    25% {
+    40% {
       background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/backgr.jpg');
    
     }
 
-    50% {
-      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/bg.jpg');
+    60% {
+      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/travel12.jpg');
 
     }
 
-    75% {
+    80% {
       background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589018909/portfolio/images/color.jpg');
 
     }
