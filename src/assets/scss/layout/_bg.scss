@@ -38,7 +38,7 @@
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
-    z-index: 2;
+    z-index: 1;
   }
 
   &:after {
@@ -50,36 +50,36 @@
        'filter #{_duration(article)} ease-in-out'
       )
     );
-     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589027547/portfolio/images/backgr.jpg');
+     //background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589027547/portfolio/images/key.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-   // animation: imageAnimation 12s  ease-in infinite 0s;
+   animation: imageAnimation 20s  ease-in infinite 2s;
   }
 
-  // @keyframes imageAnimation {
-  //   0%,100%{
-  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589026563/portfolio/images/color.jpg');
+  @keyframes imageAnimation {
+    0%,100%{
+      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589026563/portfolio/images/key.jpg');
       
-  //   }
+    }
 
-  //   25% {
-  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/1.jpg');
+    25% {
+      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/backgr.jpg');
    
-  //   }
+    }
 
-  //   50% {
-  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/backgr.jpg');
+    50% {
+      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/bg.jpg');
 
-  //   }
+    }
 
-  //   75% {
-  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589018909/portfolio/images/photo.jpg');
+    75% {
+      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589018909/portfolio/images/color.jpg');
 
-  //   }
+    }
 
-  //}
+  }
   .body.is-article-visible & {
     &:after {
       @include vendor('transform', 'scale(1.02)');
