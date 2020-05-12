@@ -50,36 +50,36 @@
        'filter #{_duration(article)} ease-in-out'
       )
     );
-     //background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589027547/portfolio/images/key.jpg');
+    background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589027547/portfolio/images/key.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-   animation: imageAnimation 10s  linear infinite 0s;
+   //animation: imageAnimation 10s  linear infinite 0s;
   }
 
-  @keyframes imageAnimation {
-    0%,100%{
-      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589026563/portfolio/images/key.jpg');
+  // @keyframes imageAnimation {
+  //   0%,100%{
+  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589026563/portfolio/images/key.jpg');
       
-    }
+  //   }
 
-    20% {
-      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/backgr.jpg');
+  //   20% {
+  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/backgr.jpg');
    
-    }
+  //   }
 
-    40% {
-      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/boy.jpg');
+  //   40% {
+  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588872138/portfolio/images/boy.jpg');
 
-    }
+  //   }
 
-    75% {
-      background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589018909/portfolio/images/color.jpg');
+  //   75% {
+  //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589018909/portfolio/images/color.jpg');
 
-    }
+  //   }
 
-  }
+  // }
   .body.is-article-visible & {
     &:after {
       @include vendor('transform', 'scale(1.02)');
