@@ -71,16 +71,12 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <p>
         {' '}</p>
       {/* <iframe src="https://api.linkedin.com/v2/shares/1234?projection=(id,urn:li:person:-f_Ut43FoQ)" height="200" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
-
     </p>
     <h2 className="major">Experience:</h2>
     <h4 className="major" >1. JPMorgan Chase & Co</h4>
     <h4 className="major" > Virtual SDE Program</h4>
-    
     <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
-    < p > For this project, a trader from the equities team has requested to add functionality to their dashboard to allow them to input specific information so they can monitor a new trading strategy.
-
-    In order to do this task, I had to set up system so as the interface with the relevant financial data feed and then present this in a way that allows the traders to visualize and analyze this data in real time to deliver actionable insights.
+    <p>• This Experience described how basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br> 
     </p>
     <h4 className="major" >2. Team Lead: SIH2020</h4>
     < p > Lead team and Selected amongst 59 teams in Software + Hardware Edition
