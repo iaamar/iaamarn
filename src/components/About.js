@@ -47,7 +47,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <a
         className="Code-major-link"
         target="_blank"
-        href = "https://drive.google.com/open?id=1BXvBtahhBuMfHDXmIe39zuA07E7gBplZ"
+        href= "https://drive.google.com/open?id=1DrHQnEFIkSI4EWXgEnZe849c8kCw_kna"
       >
         resume
       </a>{' '}
@@ -112,15 +112,12 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     <a target='_blank' href='https://drive.google.com/open?id=1Pm9YJkvpRZTTRXPgkCMmQ43h073Ra37A'>Click to View accomplishment</a>
     <p> Performed Data Quality Assesment, Putting forward Data Insights to client, Data Presentation and product development stratgies for banking application – Tableau
     </p>
-    < h4 className = "major" > 2. Virtual Intern-Deloitte</h4>
-    <a target='_blank' href=''>Click to View accomplishment</a>
-    < p >Role: Tech Consultant <br></br>Cloud Engineering, Tech Strategy & Innovation, Optimisation & Delivery.
-    </p>
-    < h4 className = "major" > 3. Virtual SDE Intern - JP Morgan </h4>
+
+    < h4 className = "major" > 2. Virtual SDE Intern - JP Morgan </h4>
     <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
     <p>Developed interface to visualize and analyze share price data for traders for actionable insights.- React ,Python Server Side Prog.<br></br>• How basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br> 
     </p>
-    <h4 className="major" >4. Team Lead: SIH2020</h4>
+    <h4 className="major" >3. Team Lead: SIH2020</h4>
     < p > Lead team for solving Electric Vehicle Ecosystem problem
     for VMware Pvt . Ltd 
     </p>
