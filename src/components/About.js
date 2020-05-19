@@ -47,7 +47,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <a
         className="Code-major-link"
         target="_blank"
-        href= "https://drive.google.com/open?id=1VXhzf6vh0ca6slzd-qaI4F43Po0kzNj-"
+        href = "https://drive.google.com/open?id=1BXvBtahhBuMfHDXmIe39zuA07E7gBplZ"
       >
         resume
       </a>{' '}
@@ -72,18 +72,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
         {' '}</p>
       {/* <iframe src="https://api.linkedin.com/v2/shares/1234?projection=(id,urn:li:person:-f_Ut43FoQ)" height="200" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
     </p>
-    <h2 className="major">Experience:</h2>
-    <h4 className="major" >1. JPMorgan Chase & Co</h4>
-    <h4 className="major" > Virtual SDE Program</h4>
-    <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
-    <p>• This Experience described how basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br> 
-    </p>
-    <h4 className="major" >2. Team Lead: SIH2020</h4>
-    < p > Lead team and Selected amongst 59 teams in Software + Hardware Edition
-    for solving Electric Vehicle Ecosystem problem
-    for VMware Pvt . Ltd
-    </p>
-    <h2 className="major">Skills:</h2>
+        <h2 className="major">Skills:</h2>
 
     <SkillSection
       skills = {
@@ -103,11 +92,10 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     skills = {
       ['firebasedb', 'mongodb','mysql' ]
     }
-    skillType = "Backend services" /
-      >
+    skillType = "Backend services" />
     <SkillSection
       skills = {
-        ['Software Engineering Virtual Experience','Advanced Data Science Professional','AWS Fundamentals','Deep Learning - ONE FOURTH LABS','Machine Learning Specialization', 'Python for Data science', 'SQL', 'Building Interactive Apps']
+        ['Advanced Data Science Professional','AWS Fundamentals','Deep Learning - ONE FOURTH LABS','Machine Learning Specialization', 'Python for Data science', 'SQL', 'Building Interactive Apps',]
       }
       skillType="Technology Accomplishments"
     />
@@ -116,8 +104,27 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       ['Ibm Watson Studio AI/ML', 'Microsoft Azure', 'Google Cloud', 'windows', 'linux', 'git',
       ]
     }
-    skillType = "tools" / >
-      <a href='https://drive.google.com/open?id=18tvzfBue-pJkFrnA2GyPi-oQhha3EqwJ' target='_blank'>All accomplishments here</a>
+    skillType = "tools" />
+    <a href='https://drive.google.com/open?id=18tvzfBue-pJkFrnA2GyPi-oQhha3EqwJ' target='_blank'>All accomplishments here</a>
+    <p></p>
+    <h2 className="major">Experience:</h2>
+    < h4 className = "major" > 1. Data Analytics Virtual Intern-KPMG </h4>
+    <a target='_blank' href='https://drive.google.com/open?id=1Pm9YJkvpRZTTRXPgkCMmQ43h073Ra37A'>Click to View accomplishment</a>
+    <p> Performed Data Quality Assesment, Putting forward Data Insights to client, Data Presentation and product development stratgies for banking application – Tableau
+    </p>
+    < h4 className = "major" > 2. Virtual Intern-Deloitte</h4>
+    <a target='_blank' href=''>Click to View accomplishment</a>
+    < p >Role: Tech Consultant <br></br>Cloud Engineering, Tech Strategy & Innovation, Optimisation & Delivery.
+    </p>
+    < h4 className = "major" > 3. Virtual SDE Intern - JP Morgan </h4>
+    <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
+    <p>Developed interface to visualize and analyze share price data for traders for actionable insights.- React ,Python Server Side Prog.<br></br>• How basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br> 
+    </p>
+    <h4 className="major" >4. Team Lead: SIH2020</h4>
+    < p > Lead team for solving Electric Vehicle Ecosystem problem
+    for VMware Pvt . Ltd 
+    </p>
+
     {close}
   </article>
 );
