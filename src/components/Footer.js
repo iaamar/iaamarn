@@ -5,7 +5,7 @@ const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
       <p className='copyright'>Hosted  on 
         <a className = 'copyright' target="_blank"
-        href = "https://github.com/iaamar"> NETLIFY </a>
+        href = "https://www.netlify.com/"> NETLIFY </a>
         </p>
   </footer>
 );

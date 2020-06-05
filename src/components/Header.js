@@ -7,6 +7,7 @@ const tabs = [
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+  
     <div className="logo">
       < img src = {
         'https://res.cloudinary.com/amarcloud/image/upload/v1588864114/portfolio/images/yo.png'

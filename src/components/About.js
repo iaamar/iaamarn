@@ -84,7 +84,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     />
     <SkillSection
       skills = {
-        ['Node-js', 'reactjs', 'Flutter', 'flask','gatsby']
+        ['Node-js','Android Studio', 'React Native','reactjs', 'Flutter', 'flask','gatsby']
       }
       skillType="technology and frameworks"
     />
