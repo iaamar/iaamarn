@@ -38,7 +38,7 @@
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
-    z-index: 1;
+    // z-index: 2; 
   }
 
   &:after {
@@ -50,11 +50,12 @@
        'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588864087/portfolio/images/bg.jpg');
+    background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588864087/portfolio/images/background.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 1;
+    // z-index: 2;
+    opacity:0.5;
    //animation: imageAnimation 10s  linear infinite 0s;
   }
 

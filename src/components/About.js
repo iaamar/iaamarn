@@ -95,7 +95,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     skillType = "Backend services" />
     <SkillSection
       skills = {
-        ['Advanced Data Science Professional','AWS Fundamentals','Deep Learning - ONE FOURTH LABS','Machine Learning Specialization', 'Python for Data science', 'SQL', 'Building Interactive Apps',]
+        ['Advanced Data Science Professional','AWS Fundamentals','Deep Learning','Machine Learning Specialization', 'Python for Data science', 'SQL', 'Building Interactive Apps',]
       }
       skillType="Technology Accomplishments"
     />

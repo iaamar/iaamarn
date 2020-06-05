@@ -1,6 +1,7 @@
 
 
 	#footer {
+		font-weight:bold;
 		padding: 25px;
 		@include vendor('transition', (
 			'transform #{_duration(article)} ease-in-out',
@@ -9,15 +10,13 @@
 		));
 		width: 100%;
 		max-width: 100%;
-		
 		text-align: center;
 
 		.copyright {
 			letter-spacing: _font(letter-spacing);
 			font-size: 0.6rem;
 			opacity: 0.75;
-			text-transform: uppercase;
-			
+			text-transform: uppercase;			
 		}
 
 		.body.is-article-visible & {
