@@ -6,6 +6,28 @@ const cloudinarygif = imageName =>
 
 const code = [
   {
+    title: 'Go Maps',
+    subtitle: 'React Native App Firebase Login , Google Location Api',
+    img: cloudinaryImg('maps'), 
+    href: 'https://github.com/iaamar/standalone-login-direction',
+    github: 'https://github.com/iaamar/standalone-login-direction',
+    more:" Preview 👇",
+    techDetails: `
+          Api are used to fetch Directions ,Places , Names of Locations and distance
+          Firebase is used for Login Authentication and CRUD Operations
+
+          React Native is an open - source mobile application framework created by Facebook.It is used to develop applications
+          for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. 
+          `,
+    tech: [
+      'React Native',
+      'javascript',
+      'html',
+      'css',
+      'node-js', 'Google Cloud','Firebasedb'
+    ]
+  },
+  {
     title: 'Live COVID-19 Update',
     subtitle: 'React Native ',
     img: cloudinarygif('gif'),
@@ -59,6 +81,16 @@ const code = [
     more: ``,
     techDetails: `Heath Care depends on domin of IOT for data processing thus python was used to integrate IOT Devices and HTML CSS were used for UI and javascript for performing CRUD operations in Firebase Database . `
   },
+  {
+      title: 'Dribbble UI',
+      subtitle: 'Mail APP UI',
+      img: cloudinarygif('dribblemail'),
+      href: 'https://www.instagram.com/weeklyuiux/',
+      // github: 'https://www.instagram.com/weeklyuiux/',
+      more: 'Preview 👇',
+    //   techDetails: `Flare Flutter gives interactive animation packages to buid flutter app , following is an example`,
+    //   tech: ['Flutter',]
+    }, 
     {
       title: 'Design Build',
       subtitle: 'Flutter Login UI',
