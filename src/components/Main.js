@@ -229,7 +229,13 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
-            
+            <li>
+              < a href = "https://drive.google.com/file/d/19cagWwhezELIaVt6SVJKOKAl_gId30Cy/view?usp=sharing"
+              className = "icon fa fa-id-card-o"
+              target = '_blank' >
+                <span className="label">Resume</span>
+              </a>
+            </li>
           </ul>
           {close}
         </article>
