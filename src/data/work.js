@@ -7,7 +7,7 @@ const cloudinarygif = imageName =>
 const code = [
   {
     title: 'Go Maps',
-    subtitle: 'React Native App Firebase Login , Google Location Api',
+    subtitle: 'Native App | Login , Location , Distance, Time ',
     img: cloudinaryImg('mapsdesktop'),
     href: 'https://github.com/iaamar/standalone-login-direction',
     github: 'https://github.com/iaamar/standalone-login-direction',
@@ -22,6 +22,7 @@ const code = [
     tech: [
       'React Native',
       'javascript',
+      'Typescript',
       'html',
       'css',
       'node-js',

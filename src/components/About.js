@@ -34,15 +34,6 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <span style={{ fontSize: '26px', marginRight: '.2rem' }}>👋</span> Hi
       My name is Amar Nagargoje .
     I am 20-Year-old Computer Science Student inspired by software products that connect communities , enhances creativity for human services & welfare
-       {/* A full portfolio of my
-      work can be found{' '}
-      <a
-        className="Code-major-link"
-        href="javascript:;"
-        onClick={() => handleOpenArticle('work')}
-      >
-        here
-      </a> */}
       {' . '}You could jump straight to my{' '}
       <a
         className="Code-major-link"
@@ -51,14 +42,6 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       >
         resume
       </a>{' '}
-      {/* or{' '}
-      <a
-        target="_blank"
-        className="Code-major-link"
-        href = "https://www.linkedin.com/in/amar-nagargoje/"
-      >
-        LinkedIn
-      </a>{' '} */}
       or{' '}
       <a
         className="Code-major-link"
@@ -68,23 +51,20 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
         Projects
       </a>{' '}
       .
-      <p>
-        {' '}</p>
-      {/* <iframe src="https://api.linkedin.com/v2/shares/1234?projection=(id,urn:li:person:-f_Ut43FoQ)" height="200" width="300" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> */}
     </p>
         <h2 className="major">Skills:</h2>
-
+ 
     <SkillSection
       skills = {
-        ['Python'
-          ,'javascript', 'html', 'css', , 'Dart'
+        ['Python','typescript'
+          ,'javascript', 'html', 'css', , 'Dart-Lang.','UI-Design'
         ]
-      }
+      } 
       skillType="languages"
     />
     <SkillSection
       skills = {
-        ['Node-js','Android Studio', 'React Native','reactjs', 'Flutter', 'flask','gatsby']
+        ['Node-js','Android Studio', 'React Native','Angular','Vue','reactjs', 'Flutter', 'flask','gatsby']
       }
       skillType="technology and frameworks"
     />

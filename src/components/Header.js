@@ -13,6 +13,7 @@ const Header = props => (
         'https://res.cloudinary.com/amarcloud/image/upload/v1588864114/portfolio/images/yo.png'
       }
       />
+
       {/* <span className="icon fa-diamond" /> */}
     </div>
     <div className="content">
