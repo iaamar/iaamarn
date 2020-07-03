@@ -7,7 +7,7 @@ const cloudinarygif = imageName =>
 const code = [
   {
     title: 'Go Maps',
-    subtitle: 'Native App | Login , Location , Distance, Time ',
+    subtitle: 'Native App | Login , Location , Distance, Time ', 
     img: cloudinaryImg('mapsdesktop'),
     href: 'https://github.com/iaamar/standalone-login-direction',
     github: 'https://github.com/iaamar/standalone-login-direction',
