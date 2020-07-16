@@ -1,5 +1,3 @@
-
-
 /* BG */
 
 #bg {
@@ -11,7 +9,7 @@
   width: 100%;
   height: 100vh;
   z-index: 1;
- 
+
   &:before,
   &:after {
     content: '';
@@ -24,17 +22,14 @@
   }
 
   &:before {
-    @include vendor(
-      'transition',
+    @include vendor('transition',
       'background-color #{_duration(bg)} ease-in-out'
     );
     @include vendor('transition-delay', '#{_duration(intro)}');
-    background-image: linear-gradient(
-        to top,
-        #{_palette(bg-overlay)},
-        #{_palette(bg-overlay)}
-      ),
-      url('../../images/overlay.png');
+    background-image: linear-gradient(to top,
+      #{_palette(bg-overlay)},
+      #{_palette(bg-overlay)}),
+    url('../../images/overlay.png');
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -43,31 +38,28 @@
 
   &:after {
     @include vendor('transform', 'scale(1.015)');
-    @include vendor(
-      'transition',
-      (
-       'transform #{_duration(article)} ease-in-out',
-       'filter #{_duration(article)} ease-in-out'
-      )
-    );
-    background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588864087/portfolio/images/boy.jpg');
+    @include vendor('transition',
+      ('transform #{_duration(article)} ease-in-out',
+        'filter #{_duration(article)} ease-in-out'
+      ));
+    background-image: url('https://res.cloudinary.com/amarcloud/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1594922070/portfolio/images/earth.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     // z-index: 2;
-    opacity:0.5;
-   //animation: imageAnimation 10s  linear infinite 0s;
+    opacity: 0.5;
+    //animation: imageAnimation 10s  linear infinite 0s;
   }
 
   // @keyframes imageAnimation {
   //   0%,100%{
   //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1589026563/portfolio/images/key.jpg');
-      
+
   //   }
 
   //   20% {
   //     background-image: url('https://res.cloudinary.com/amarcloud/image/upload/v1588875317/portfolio/images/backgr.jpg');
-   
+
   //   }
 
   //   40% {
