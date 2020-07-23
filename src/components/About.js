@@ -62,6 +62,21 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       } 
       skillType="languages"
     />
+    <h2 className="major">Experience:</h2>
+    < h4 className="major" > 1. Microsoft Engineering Intern </h4>
+    {/* <a target='_blank' href='https://drive.google.com/open?id=1Pm9YJkvpRZTTRXPgkCMmQ43h073Ra37A'>Click to View accomplishment</a> */}
+    <p> TakeAways : Cloud Network Engineering, Content Publishing, Data and Applied Sciences, Design, Design Research, Engineering General Management, Product Planning, Program Management, Service Engineering, Site Reliability Engineering, Software Development and Software Engineering .
+    </p>
+
+    < h4 className="major" > 2. Virtual SDE Intern - JP Morgan </h4>
+    <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
+    <p>Developed interface to visualize and analyze share price data for traders for actionable insights.- React ,Python Server Side Prog.<br></br>• How basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br>
+    </p>
+    <h4 className="major" >3. Team Lead: SIH2020</h4>
+    < p > Lead team for solving Electric Vehicle Ecosystem problem
+    for VMware Pvt . Ltd
+    </p>
+
     <SkillSection
       skills = {
         ['Node-js','Android Studio', 'React Native','Angular','Vue','reactjs', 'Flutter', 'flask','gatsby']
@@ -87,21 +102,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     skillType = "tools" />
     <a href='https://drive.google.com/open?id=18tvzfBue-pJkFrnA2GyPi-oQhha3EqwJ' target='_blank'>All accomplishments here</a>
     <p></p>
-    <h2 className="major">Experience:</h2>
-    < h4 className = "major" > 1. Data Analytics Virtual Intern-KPMG </h4>
-    <a target='_blank' href='https://drive.google.com/open?id=1Pm9YJkvpRZTTRXPgkCMmQ43h073Ra37A'>Click to View accomplishment</a>
-    <p> Performed Data Quality Assesment, Putting forward Data Insights to client, Data Presentation and product development stratgies for banking application – Tableau
-    </p>
-
-    < h4 className = "major" > 2. Virtual SDE Intern - JP Morgan </h4>
-    <a target='_blank' href='https://drive.google.com/open?id=14I2FK3SYiVrb3NHZW2NY3wnmVgCEA7QB'>Click to View accomplishment</a>
-    <p>Developed interface to visualize and analyze share price data for traders for actionable insights.- React ,Python Server Side Prog.<br></br>• How basic statistical measures are used to reveal patterns within the data.<br></br>• Recognize data characteristics, patterns, trends, deviations or inconsistencies, and potential outliers.<br></br>• Identify useful techniques for working with big data such as dimension reduction and feature selection methods.<br></br> 
-    </p>
-    <h4 className="major" >3. Team Lead: SIH2020</h4>
-    < p > Lead team for solving Electric Vehicle Ecosystem problem
-    for VMware Pvt . Ltd 
-    </p>
-
+    
     {close}
   </article>
 );
