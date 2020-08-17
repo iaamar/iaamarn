@@ -32,9 +32,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     </div>
     <p>
       <span style={{ fontSize: '26px', marginRight: '.2rem' }}>👋</span> Hi My
-      name is Amar Nagargoje . I am 20-Year-old Computer Science Student
-      inspired by software products that connect communities , enhances
-      creativity for human services & welfare
+      name is Amar Nagargoje .I am a Student by day and Technophile by, pretty much any time of the day. I am a Computer Science Student and I like building high quality mobile / web apps . I believe in bringing value to table
       {' . '}You could jump straight to my{' '}
       <a
         className="Code-major-link"
