@@ -6,6 +6,21 @@ const cloudinarygif = imageName =>
 
 const code = [
   {
+    title: 'Blog App',
+    subtitle: 'Social Media Concept',
+    img: cloudinaryImg('blog'),
+    href: 'https://github.com/iaamar/truexam-online-image-apihttps://github.com/iaamar/flutter-blog-social-media-',
+    github: 'https://github.com/iaamar/flutter-blog-social-media-',
+    more: ' Preview 👇',
+    techDetails: `Flutter is  mobile application framework created by Google.It is used to develop applications for Android, iOS, Web .a1More Info at https://flutter.dev/
+          `,
+    tech: [
+      'flutter',
+      'Google Cloud',
+      'Firebasedb'
+    ]
+  },
+  {
     title: 'Online BootCamp App',
     subtitle: 'Flutter App | Login , Firebase Storage ,JWT id ',
     img: cloudinaryImg('imageediting'),
@@ -16,7 +31,7 @@ const code = [
           Api are used to create , Update delete user 
           Firebase is used for Login Authentication and CRUD Operations
 
-          Flutter  mobile application framework created by Google.It is used to develop applications for Android, iOS, Web .a1More Info at https://flutter.dev/
+          Flutter is mobile application framework created by Google.It is used to develop applications for Android, iOS, Web .a1More Info at https://flutter.dev/
           `,
     tech: [
       'flutter',
