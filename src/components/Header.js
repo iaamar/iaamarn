@@ -20,7 +20,7 @@ const Header = props => (
       <div className="inner">
         <h1>Amar Nagargoje</h1>
         <p>Code, music, literature, travel </p>
-        {/* <p>I build amazing Experiences</p> */}
+        <p>I build amazing Experiences</p>
       </div>
     </div>
     <nav>

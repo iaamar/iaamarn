@@ -37,7 +37,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <a
         className="Code-major-link"
         target="_blank"
-        href="https://drive.google.com/file/d/1VFW44aqSiwgPFus2bUuQY_KdOcoiLVtg/view?usp=sharing"
+        href="https://drive.google.com/file/d/1lBbCE0pEYvOpxQF5VddmyrAs2KEd3S8K/view?usp=sharing"
       >
         resume
       </a>{' '}
@@ -67,10 +67,10 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       skillType="languages"
     />
     <h2 className="major">Experience:</h2>
-    {/* < h4 className="major" > 1. Microsoft Engineering Intern </h4>
-    <a target='_blank' href='https://drive.google.com/open?id=1Pm9YJkvpRZTTRXPgkCMmQ43h073Ra37A'>Click to View accomplishment</a>
-    <p> TakeAways : Cloud Network Engineering, Content Publishing, Data and Applied Sciences, Design, Design Research, Engineering General Management, Product Planning, Program Management, Service Engineering, Site Reliability Engineering, Software Development and Software Engineering .
-    </p> */}
+    < h4 className="major" > 1. Ombre - Software Engineering Intern </h4>
+    <a target='_blank' >Present 2020</a>
+    <p> Technical Team support .
+    </p>
 
     <h4 className="major">Virtual SDE Intern - JP Morgan </h4>
     <a
