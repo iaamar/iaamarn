@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Amar Nagargoje",
   "dependencies": {
-    "gatsby": "^2.18.18",
+    "gatsby": "^2.28.0",
+    "gatsby-cli": "^2.15.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
