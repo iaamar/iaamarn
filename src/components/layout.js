@@ -13,8 +13,14 @@ const Layout = ({ children, location }) => {
   } else {
     content = (
       <div id="wrapper" className="page">
+         <link rel="stylesheet" href="../assets/asset/css/main.css" />
         <div>{children}</div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./assets/asset/js/sweet-scroll.min.js"></script>
+    <script src="./assets/asset/js/google-analytics.js"></script>
+    <script src="./assets/asset/js/main.js"></script>
       </div>
+      
     );
   }
 
@@ -31,6 +37,7 @@ const Layout = ({ children, location }) => {
       `}
       render={data => (
         <>
+            <link rel="stylesheet" href="../assets/asset/css/main.css" />
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
@@ -46,24 +53,7 @@ const Layout = ({ children, location }) => {
               }
             ]}
           >
-            <html lang="en">
-            <head>
-    <link rel="stylesheet" href="../assets/asset/css/main.css" />
-  </head>
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h2>
-        {content}
-        </h2>
-    </div>
-</div>   
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="../assets/asset/js/sweet-scroll.min.js"></script>
-    <script src="../assets/asset/js/google-analytics.js"></script>
-    <script src="../assets/asset/js/main.js"></script>
-  </body>
-            </html>
+            <html lang="en"/>
           </Helmet>
           {content}
         </>
