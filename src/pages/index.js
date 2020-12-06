@@ -100,12 +100,10 @@ class Index extends React.Component {
           }`}
         >
           <div id="wrapper">
-          <div id="particles-js">
             <Header
               onOpenArticle={this.handleOpenArticle}
               timeout={this.state.timeout}
-            /></div>
-
+            />
             <Main
               isArticleVisible={this.state.isArticleVisible}
               handleOpenArticle={(a) => this.switchArticle(a)}

@@ -13,14 +13,8 @@ const Layout = ({ children, location }) => {
   } else {
     content = (
       <div id="wrapper" className="page">
-         <link rel="stylesheet" href="../assets/asset/css/main.css" />
         <div>{children}</div>
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="./assets/asset/js/sweet-scroll.min.js"></script>
-    <script src="./assets/asset/js/google-analytics.js"></script>
-    <script src="./assets/asset/js/main.js"></script>
       </div>
-      
     );
   }
 
@@ -37,7 +31,6 @@ const Layout = ({ children, location }) => {
       `}
       render={data => (
         <>
-            <link rel="stylesheet" href="../assets/asset/css/main.css" />
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
@@ -48,8 +41,8 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
               {
                 name: 'og:image',
-                // content:    
-                // 'https://res.cloudinary.com/amarcloud/image/upload/v1588864033/portfolio/images/bg_compressed.jpg'
+                content:    
+                'https://res.cloudinary.com/amarcloud/image/upload/v1588864033/portfolio/images/bg_compressed.jpg'
               }
             ]}
           >
