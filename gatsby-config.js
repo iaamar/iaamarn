@@ -10,7 +10,7 @@ module.exports = {
       options: {
         name: 'Portfolio',
         short_name: 'app',
-        start_url: '',  
+        start_url: 'http://127.0.0.1:5502/',  
         background_color: '#000000',
         theme_color: '#000000',
         display: 'minimal-ui',
