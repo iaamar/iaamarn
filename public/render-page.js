@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/media/amar/948645008644E478/resume/iaamarn/node_modules/@reach/router/index.js"), require("fs"), require("/media/amar/948645008644E478/resume/iaamarn/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/home/amar/iaamarn/node_modules/@reach/router/index.js"), require("fs"), require("/home/amar/iaamarn/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/media/amar/948645008644E478/resume/iaamarn/node_modules/@reach/router/index.js", "fs", "/media/amar/948645008644E478/resume/iaamarn/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/home/amar/iaamarn/node_modules/@reach/router/index.js", "fs", "/home/amar/iaamarn/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/media/amar/948645008644E478/resume/iaamarn/node_modules/@reach/router/index.js"), require("fs"), require("/media/amar/948645008644E478/resume/iaamarn/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/home/amar/iaamarn/node_modules/@reach/router/index.js"), require("fs"), require("/home/amar/iaamarn/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/media/amar/948645008644E478/resume/iaamarn/node_modules/@reach/router/index.js"], root["fs"], root["/media/amar/948645008644E478/resume/iaamarn/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/home/amar/iaamarn/node_modules/@reach/router/index.js"], root["fs"], root["/home/amar/iaamarn/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -201,6 +201,7 @@ module.exports = function (api, args, defaultReturn, argTransform) {
  * rendering.
  * @param {object} $0
  * @param {string} $0.pathname The pathname of the page currently being rendered.
+ * @param {ReactNode} $0.bodyComponent The React element to be rendered as the page body
  * @param {function} $0.replaceBodyHTMLString Call this with the HTML string
  * you render. **WARNING** if multiple plugins implement this API it's the
  * last plugin that "wins". TODO implement an automated warning against this.
@@ -3259,8 +3260,17 @@ var ScrollHandler = /*#__PURE__*/function (_React$Component) {
     if (key) {
       scrollPosition = this._stateStorage.read(this.props.location, key);
     }
+    /**  There are two pieces of state: the browser url and
+     * history state which keeps track of scroll position
+     * Native behaviour prescribes that we ought to restore scroll position
+     * when a user navigates back in their browser (this is the `POP` action)
+     * Currently, reach router has a bug that prevents this at https://github.com/reach/router/issues/228
+     * So we _always_ stick to the url as a source of truth — if the url
+     * contains a hash, we scroll to it
+     */
 
-    if (hash && scrollPosition === 0) {
+
+    if (hash) {
       this.scrollToHash(decodeURI(hash), prevProps);
     } else {
       this.windowScroll(scrollPosition, prevProps);
@@ -30951,9 +30961,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "@reach/router":
-/*!**************************************************************************************************!*\
-  !*** external "/media/amar/948645008644E478/resume/iaamarn/node_modules/@reach/router/index.js" ***!
-  \**************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** external "/home/amar/iaamarn/node_modules/@reach/router/index.js" ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -30973,9 +30983,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!*******************************************************************************************!*\
-  !*** external "/media/amar/948645008644E478/resume/iaamarn/node_modules/lodash/merge.js" ***!
-  \*******************************************************************************************/
+/*!******************************************************************!*\
+  !*** external "/home/amar/iaamarn/node_modules/lodash/merge.js" ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
