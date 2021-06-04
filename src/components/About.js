@@ -37,7 +37,7 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
       <a
         className="Code-major-link"
         target="_blank"
-        href="https://drive.google.com/file/d/1twOabojnGCPi04dRxGD9hkI8UMMp97n8/view?usp=sharing"
+        href="https://drive.google.com/file/d/1oobzuoMet0vpoZwndUN3IBjZMbqxWU3W/view?usp=sharing"
       >
         resume
       </a>{' '}
