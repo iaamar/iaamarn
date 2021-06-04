@@ -68,8 +68,8 @@ const About = ({ article, articleTimeout, close, handleOpenArticle }) => (
     />
     <h2 className="major">Experience:</h2>
     < h4 className="major" > 1. Ombre - Software Engineering Intern </h4>
-    <a target='_blank' >Present 2020</a>
-    <p> Technical Team support .
+    <a target='_blank' >Sept 2020 - March 2021</a>
+    <p> Software Engineer Intern
     </p>
 
     <h4 className="major">Virtual SDE Intern - JP Morgan </h4>
